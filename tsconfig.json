@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "Classic",
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["ES2015", "DOM"],
+    "pretty": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "sourceMap": true,
+  },
+  "include": ["src"]
+}

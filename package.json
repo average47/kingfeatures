@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^10.7.0",
+    "parcel-bundler": "1.10.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "build": "$(npm bin)/parcel build ./src/index.html",
+    "start": "./start.sh"
+  }
+}
